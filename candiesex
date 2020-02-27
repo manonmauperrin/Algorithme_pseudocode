@@ -15,7 +15,7 @@ DEBUT
       argent <--argent - prixbonbon
     FIN TANT QUE
   
-  SINON Afficher nbBonbons
+  Afficher nbBonbons
   FIN SI
 
 FIN 
