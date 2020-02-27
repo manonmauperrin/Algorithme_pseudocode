@@ -1,0 +1,17 @@
+VARIABLES
+  argent
+  prixbonbon
+  nbBonbons
+
+DEBUT
+  Lire argent
+  Lire prixbonbon
+  nbBonbons<--0
+  
+  TANT QUE argent>=prixbonbon
+    nbBonbons <--nbBonbons + 1
+    argent <--argent - prixbonbon
+  FIN TANT QUE
+  
+  Afficher nbBonbons
+FIN 
