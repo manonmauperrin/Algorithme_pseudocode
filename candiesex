@@ -3,7 +3,7 @@ VARIABLES
   prixbonbon
   nbBonbons
 
-DEBUT
+DEBUT (entier nbBonbons)
   Lire argent
   Lire prixbonbon
   nbBonbons<--0
