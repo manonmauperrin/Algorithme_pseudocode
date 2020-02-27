@@ -9,10 +9,13 @@ DEBUT
   nbBonbons<--0
   
   SI argent>0 et prixbonbon>0
+    
     TANT QUE argent>=prixbonbon
       nbBonbons <--nbBonbons + 1
       argent <--argent - prixbonbon
     FIN TANT QUE
+  
   SINON Afficher nbBonbons
   FIN SI
+
 FIN 
