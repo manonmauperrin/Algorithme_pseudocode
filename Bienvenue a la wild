@@ -1,0 +1,14 @@
+Variables
+  nombreSaisi
+  resultat
+
+DEBUT
+
+  Demander nombreSaisi
+    Tant que nombreSaisi
+    Afficher "Bienvenue à la wild"
+    Fin tant que
+
+  Retourner resultat
+
+FIN
